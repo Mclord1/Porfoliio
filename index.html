@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Future of Programming</title>
+    <!-- Favicon -->
+    <link href="images/logomini.png" rel="shortcut icon" type="image/x-icon"/>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="style.js"></script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <nav class="navbar navbar-fixed-top">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand logo" href="#home"><img src="images/main-logo.png" height="70px" width="120px"/></a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#contacts">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bgimg row" id="home">
+        <img class="img" src="images/image1.jpg" height="100%" width="100%">
+        <div class="bgtext col-md-12 col-sm-12 col-xs-12">
+            <h1>Well Hello!<br> My Name is Mclord <br> I'm a full stack developer.</h1>
+            <p>Let me help you grow your business idea and make your product pretty while i'm at it.
+            <p>
+                <a href="#">
+                    <button data-toggle="modal" data-target="#myModal" data-backdrop="true" data-keyboard="true">HIRE
+                        ME
+                    </button>
+                </a>
+        </div>
+    </div>
+
+    <div class="text-center" id="services">
+
+        <div class="row">
+            <div class="sec col-md-12 col-xs-12">
+                <h2>I LOVE TO BUILD STUFF</h2>
+            </div>
+        </div>
+
+        <div class="section1">
+            <div class="row slideanim">
+
+
+                <div class="col-xs-12 col-lg-4 col-sm-12 insec">
+                    <div class="circle">
+                        <img src="images/laptop.png" width="60px" height="60px">
+                    </div>
+                    <h3>WEB DESIGN</h3>
+                    <p>I provide the best designs for any website <br>you have in mind.</p>
+                </div>
+
+                <div class="col-xs-12 col-lg-4 col-sm-12 insec">
+                    <div class="circle">
+                        <img src="images/consulting.png" width="60px" height="60px">
+                    </div>
+                    <h3>CONSULTING</h3>
+                    <p>Let's come up with the best<br>strategy for your business idea.</p>
+                </div>
+
+                <div class="col-xs-12 col-lg-4 col-sm-12 insec">
+                    <div class="circle">
+                        <img src="images/smartphone-1.png" width="60px" height="60px">
+                    </div>
+                    <h3>WEB & MOBILE APPLICATIONS</h3>
+                    <p>Do you need to build your personal website, <br>reach out to me so we can begin.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <br><br>
+    <hr>
+
+    <div class="row" id="works">
+        <div class="section2">
+            <h2>What i have done</h2>
+            <p>Below are a few of the projects i've worked on, to see more, visit my profile on behance.
+            <div class="slideanim">
+                <div class="row col-container">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/myChurchMember-big.jpg" target="_blank">
+                                <img src="images/myChurchMember.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio%201.jpg" target="_blank">
+                                <img src="images/portfolio%201-small.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/Portfolio4-big.jpg" target="_blank">
+                                <img src="images/Portfolio4.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-lg-2 col-xs-2"></div>
+    </div>
+
+    <div class="row" id="contacts">
+
+        <div class="section3 col-xs-12">
+
+            <div class="insec1">
+                <img src="images/email.png" width="60px" height="60px">
+                <h2>CONTACT ME</h2>
+                <p>Depending on the time of year and project, I may be available for freelance work. If you’ve got an
+                    interesting one, feel free to email me below.</p>
+                <a href="#">
+                    <button data-toggle="modal" data-target="#myModal" data-backdrop="true" data-keyboard="true">SEND
+                        MAIL
+                    </button>
+                </a>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Kindly send me a message</h4>
+                    </div>
+
+                    <form class="form-horizontal" method="post" role="form">
+                        <div class="modal-body">
+                            <table>
+                                <tr>
+                                    <td>E-mail Address</td>
+                                    <td><input type="email" class="form-control" id="email" name="email"
+                                               placeholder="E-mail Address" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Full Name</td>
+                                    <td><input type="text" class="form-control" id="name" name="name"
+                                               placeholder="Full Name"
+                                               required></td>
+                                </tr>
+                                <tr>
+                                    <td>Message</td>
+                                    <td><textarea id="message" name="message" class="form-control"
+                                                  placeholder="Your Message" rows="5" required></textarea></td>
+                                </tr>
+                            </table>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="" checked>Remember me</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-default" data-dismiss="modal">Send Message</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="text-center row">
+    <div class="col-md-12 col-sm-12">
+        <h2>Designed by Mclord.
+            <script>
+                var d = new Date();
+                document.write(d.getFullYear());
+            </script>
+        </h2>
+        <br>
+        <a href="https://web.facebook.com/don.mclord" target="_blank"><img src="images/fb.png" class="socialIcons"/></a>
+        <a href="https://twitter.com/MEmuraishe" target="_blank"><img src="images/twitter.png" class="socialIcons"/></a>
+        <a href="https://www.instagram.com/donmclord/" target="_blank"><img src="images/instagram.png"
+                                                                            class="socialIcons"/></a>
+        <a href="https://www.linkedin.com/in/mclord-emuraishe-60989198/" target="_blank"><img src="images/linkedin.png"
+                                                                                              class="socialIcons"/></a>
+    </div>
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
